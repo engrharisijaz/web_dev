@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Appointment | Brown's Mills Dental Care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header"><div class="container nav-wrap"><a class="logo" href="index.html"><span class="logo-mark">B</span><span class="logo-text">Brown's Mills Dental Care</span></a><button class="nav-toggle" aria-expanded="false" aria-controls="main-nav"><span class="sr-only">Toggle navigation</span>☰</button><nav id="main-nav" class="main-nav"><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a><a class="btn btn-small" href="appointment.html" aria-current="page">Book Now</a></nav></div></header>
+    <main>
+      <section class="page-hero"><div class="container"><p class="eyebrow">Book a Visit</p><h1>Request Your Appointment</h1><p class="lead">Tell us what you need and your preferred time. Our staff will confirm by phone.</p></div></section>
+      <section class="section"><div class="container two-col"><div><h2>What to Expect</h2><ul class="list-clean"><li>Complete intake and health history review</li><li>Comfort-focused exam and treatment planning</li><li>Transparent pricing and financing options</li></ul></div><form class="card appointment-form" id="contact-form"><label>Full Name<input type="text" name="name" required /></label><label>Phone Number<input type="tel" name="phone" required /></label><label>Email Address<input type="email" name="email" required /></label><label>Preferred Service<select name="service" required><option value="">Select one</option><option>Cleaning & Exam</option><option>Cosmetic Consultation</option><option>Invisalign®</option><option>Emergency Visit</option></select></label><label>Preferred Day<input type="date" name="day" required /></label><button class="btn" type="submit">Send Request</button><p id="form-note" class="form-note" role="status" aria-live="polite"></p></form></div></section>
+    </main>
+    <footer class="site-footer"><div class="container footer-grid"><div><h2>Brown's Mills Dental Care</h2><p>15 Main Street, Brown's Mills, NJ 08015</p><p><a href="tel:+16095550198">(609) 555-0198</a> · <a href="mailto:hello@bmdentalcare.com">hello@bmdentalcare.com</a></p></div><div><h3>Quick Links</h3><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div></div><p class="copyright">© <span id="year"></span> Brown's Mills Dental Care. All rights reserved.</p></footer>
+  </body>
+</html>
